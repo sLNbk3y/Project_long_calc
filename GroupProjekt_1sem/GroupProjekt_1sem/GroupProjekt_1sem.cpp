@@ -24,7 +24,7 @@ int checkLength();
 void subtraction();
 void multiplication();
 
-void degree();
+void power();
 void showResult();
 
 void WelcomeMes() {
@@ -60,14 +60,12 @@ int checkStr() {
 int checkOp(){
 	operand = 0;
 	for (int i = 0; i < uInput.length(); i++) {
-		while (operand = 0) {
 			if (uInput[i] == '+') return operand = '+';
 			else if (uInput[i] == '-') return operand = '-';
 			else if (uInput[i] == '*') return operand = '*';
 			else if (uInput[i] == '/') return operand = '/';
 			else if (uInput[i] == '%') return operand = '%';
 			else if (uInput[i] == '!') return operand = '!';
-		}
 	}
 }
 
@@ -277,7 +275,7 @@ void multiplication() {
 
 
 
-void degree() {
+void power() {
 	for (int i = 0; i < len_a; i++) {
 		a.push_back(trans(uInput[i]));
 	}
@@ -360,7 +358,7 @@ int main() {
 			break;
 		case '/': break;
 		case '%': 
-			degree();
+			power();
 			showResult();
 			break;
 		}
