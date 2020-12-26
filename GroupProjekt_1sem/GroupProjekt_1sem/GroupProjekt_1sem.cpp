@@ -17,8 +17,8 @@ int len_a;
 void WelcomeMes();
 int checkStr();
 int checkOp();
-vector <int> getNumber();
-int trans();
+vector <int> getNumber(vector <int>& a, vector <int>& b);
+int trans(char element);
 void sum();
 int checkLength();
 void subtraction();
@@ -50,19 +50,24 @@ int checkStr() {
 	}
 	if (counter > 1 || counter == 0)
 		return true;
-	else
+	if (counter == 1) {
+		if (uInput[len_a] == '+' || uInput[len_a] == '-' || uInput[len_a] == '*' || uInput[len_a] == '/' || uInput[len_a] == '%' || uInput[len_a] == '!')
 		return false;
+		else return true;
+	}
 }
 
 int checkOp(){
 	operand = 0;
 	for (int i = 0; i < uInput.length(); i++) {
-		if (uInput[i] == '+') return operand = '+';
-		else if (uInput[i] == '-') return operand = '-';
-		else if (uInput[i] == '*') return operand = '*';
-		else if (uInput[i] == '/') return operand = '/';
-		else if (uInput[i] == '%') return operand = '%';
-		else if (uInput[i] == '!') return operand = '!';
+		while (operand = 0) {
+			if (uInput[i] == '+') return operand = '+';
+			else if (uInput[i] == '-') return operand = '-';
+			else if (uInput[i] == '*') return operand = '*';
+			else if (uInput[i] == '/') return operand = '/';
+			else if (uInput[i] == '%') return operand = '%';
+			else if (uInput[i] == '!') return operand = '!';
+		}
 	}
 }
 
@@ -287,20 +292,20 @@ void degree() {
 		else n += trans(uInput[i]);
 		counter++;
 	}
-
-	while (n > 1) {
-		for (int i = 0; i < len_a; i++) {
-			b.push_back(trans(uInput[i]));
+	if (n >= 1) {
+		while (n > 1) {
+			for (int i = 0; i < len_a; i++) {
+				b.push_back(trans(uInput[i]));
+			}
+			multiplication();
+			a.swap(result);
+			n--;
 		}
-		multiplication();
-		a.swap(result);
-		n--;
+		result.swap(a);
 	}
 	if (n == 0) {
 		result = { 1 };
 	}
-
-	result.swap(a);
 }
 
 void showResult() {
@@ -308,7 +313,8 @@ void showResult() {
 	 for (int i = 0; i < result.size(); i++) {
 		if (result[i] == 0) counter++; else break;
 	 }
-	 for (int i = 0 + counter; i < result.size(); i++) {
+	 if (result.size() >= 1 & counter > 0) result.erase(result.begin(), result.begin() + counter - 1);
+	 for (int i = 0; i < result.size(); i++) {
 		cout << result[i];
 	 }
 	cout << "" << endl;

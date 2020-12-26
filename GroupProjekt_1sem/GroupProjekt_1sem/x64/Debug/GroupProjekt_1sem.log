@@ -1,0 +1,19 @@
+﻿  GroupProjekt_1sem.cpp
+C:\Users\Cummunist\Project_long_calc\GroupProjekt_1sem\GroupProjekt_1sem\GroupProjekt_1sem.cpp(109,3): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Cummunist\Project_long_calc\GroupProjekt_1sem\GroupProjekt_1sem\GroupProjekt_1sem.cpp(114,3): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Cummunist\Project_long_calc\GroupProjekt_1sem\GroupProjekt_1sem\GroupProjekt_1sem.cpp(119,2): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Cummunist\Project_long_calc\GroupProjekt_1sem\GroupProjekt_1sem\GroupProjekt_1sem.cpp(151,3): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Cummunist\Project_long_calc\GroupProjekt_1sem\GroupProjekt_1sem\GroupProjekt_1sem.cpp(156,3): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Cummunist\Project_long_calc\GroupProjekt_1sem\GroupProjekt_1sem\GroupProjekt_1sem.cpp(162,3): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Cummunist\Project_long_calc\GroupProjekt_1sem\GroupProjekt_1sem\GroupProjekt_1sem.cpp(194,3): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Cummunist\Project_long_calc\GroupProjekt_1sem\GroupProjekt_1sem\GroupProjekt_1sem.cpp(234,3): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Cummunist\Project_long_calc\GroupProjekt_1sem\GroupProjekt_1sem\GroupProjekt_1sem.cpp(251,3): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Cummunist\Project_long_calc\GroupProjekt_1sem\GroupProjekt_1sem\GroupProjekt_1sem.cpp(255,3): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Cummunist\Project_long_calc\GroupProjekt_1sem\GroupProjekt_1sem\GroupProjekt_1sem.cpp(285,2): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Cummunist\Project_long_calc\GroupProjekt_1sem\GroupProjekt_1sem\GroupProjekt_1sem.cpp(288,10): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+C:\Users\Cummunist\Project_long_calc\GroupProjekt_1sem\GroupProjekt_1sem\GroupProjekt_1sem.cpp(314,39): warning C4554: "&": проверьте приоритет операторов на ошибки; для уточнения приоритета используйте скобки
+C:\Users\Cummunist\Project_long_calc\GroupProjekt_1sem\GroupProjekt_1sem\GroupProjekt_1sem.cpp(70): warning C4715: checkOp: значение возвращается не при всех путях выполнения
+C:\Users\Cummunist\Project_long_calc\GroupProjekt_1sem\GroupProjekt_1sem\GroupProjekt_1sem.cpp(58): warning C4715: checkStr: значение возвращается не при всех путях выполнения
+C:\Users\Cummunist\Project_long_calc\GroupProjekt_1sem\GroupProjekt_1sem\GroupProjekt_1sem.cpp(103): warning C4715: trans: значение возвращается не при всех путях выполнения
+C:\Users\Cummunist\Project_long_calc\GroupProjekt_1sem\GroupProjekt_1sem\GroupProjekt_1sem.cpp(144): warning C4715: checkLength: значение возвращается не при всех путях выполнения
+  GroupProjekt_1sem.vcxproj -> C:\Users\Cummunist\Project_long_calc\GroupProjekt_1sem\x64\Debug\GroupProjekt_1sem.exe
